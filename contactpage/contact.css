@@ -1,0 +1,117 @@
+nav {
+    background-color: #0072C6;
+    color: #fff;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .logo {
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-left: 30px;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    background-color: #005A9E;
+  }
+
+/* Search Bar Styles */
+.navbar-search {
+  display: flex;
+  align-items: center;
+}
+.search-input {
+  padding-top: 20px;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  margin-right: 8px;
+  
+}
+form{
+  
+    background-color: #f7faf9;
+    height: 50%px;
+    width: 50%;
+    margin-left: 25%;
+    padding-top: 20px;
+
+}
+.form1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+    padding: 10px;
+    
+    
+    
+}
+
+.form1 input{
+    margin: 9px;
+}
+.form1 select{
+    margin: 4.5px  9px;
+    height: 40px;
+    border-radius: 10px;
+}
+input{
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+
+button{
+    height: 40px;
+    margin: 4.5px 9px;
+    border-radius: 10px;
+}
+.map{
+  width: 2000px;
+  height: 1200px;
+  padding-left: 25%;
+  padding-top: 20px;
+}
+map{
+  width: 1000px;
+  height: 1000px;
+}
+
