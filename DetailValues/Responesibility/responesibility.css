@@ -1,0 +1,165 @@
+nav {
+    background-color: #0072C6;
+    color: #fff;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .logo {
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-left: 30px;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    background-color: #005A9E;
+  }
+
+/* Search Bar Styles */
+.navbar-search {
+  display: flex;
+  align-items: center;
+}
+.search-input {
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+
+  /* slide header image */
+  .header-image {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .header-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .bg-img img{
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+  }
+  h1{
+    justify-content: center;
+    display: flex;
+    color: red;
+    margin-top: 50px;
+  }
+  h2{
+    display: flex;
+    color: black;
+    margin-left: 90px;
+  }
+  footer {
+    background-color: #0072C6;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+  }
+  
+  .footer-section h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-section li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-section a:hover {
+    color: #ccc;
+  }
+  
+  .social-media {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .social-media a {
+    font-size: 24px;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-media a:hover {
+    color: #ccc;
+  }
+  
+  .copyright {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+  }
+  
+  
+  
+  
+
+
+
+  
