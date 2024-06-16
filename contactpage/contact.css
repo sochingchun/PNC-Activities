@@ -14,12 +14,20 @@ body {
 }
 
 /* Navbar styles */
+nav {
+  background-color: #0072C6;
+  color: #fff;
+  padding: 15px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
 .navbar-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1f38db;
-  padding: 10px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .navbar-brand {
@@ -29,34 +37,47 @@ body {
   color: #fff;
 }
 
+
 .logo {
-  height: 40px;
+  height: 50px;
   margin-right: 10px;
 }
 
-.navbar-search {
-  width: 300px;
-}
-
-.search-input {
-  width: 100%;
-  padding: 5px 10px;
-  border: none;
-  border-radius: 3px;
-}
-
 .navbar-nav {
-  list-style-type: none;
   display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-item {
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .nav-link {
   color: #fff;
   text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #005A9E;
+}
+
+/* Search Bar Styles */
+.navbar-search {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  margin-right: 8px;
 }
 
 /* Form styles */
