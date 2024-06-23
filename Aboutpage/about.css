@@ -203,28 +203,20 @@
  }
 
  table {
-   background: #eae6e6;
-   margin: 30px;
-   border-collapse: collapse;
-   width: 80%;
-   padding-bottom: 0%;
-   height: 25vh;
-   margin-left: 10%;
-   font-size: 22px;
-   /* padding-top: 20%; */
- }
+  width: 100%;
+  border-collapse: collapse;
+}
 
- th,
- td {
-   text-align: center;
-   border: 1px solid #000;
- }
+th,
+td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
 
- th {
-   background: #6988ee;
-   color: white;
-
- }
+th {
+  background-color: #f2f2f2;
+}
 
  /* tr:nth-child(2){
     background: #37d975;
